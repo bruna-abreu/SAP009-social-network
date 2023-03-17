@@ -1,7 +1,7 @@
-/* import { myFunction } from '../src/lib/index';
+import { createUserWithEmail } from '../src/firebase/auth';
 
-describe('myFunction', () => {
-  it('debería ser una función', () => {
-    expect(typeof myFunction).toBe('function');
+describe('create user with email', () => {
+  it('should be an object', () => {
+    expect(typeof createUserWithEmail).toBe('function');
   });
-}); */
+});

@@ -17,7 +17,7 @@ import { app } from './app.js';
 
 // variável executa a funcao getAuth em cima do nosso app
 // variável recebe nosso app e permite que a gente execute as funcões auth em cima do nosso app
-const auth = getAuth(app);
+export const auth = getAuth(app);
 console.log(auth);
 
 // funcao que criamos para abrigar a funcao de criar user com email/senha (já criada pelo firebase)
